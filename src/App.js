@@ -34,7 +34,7 @@ class App extends React.Component {
     encourageant,
     bienveillant,
     stimulant} = this.state;
-    const result = Math.floor(100*(Number(capacite) + Number(controle) + Number(valeur) + Number(securisant) + Number(encourageant) + Number(bienveillant) + Number(stimulant)) / 200)
+    const result = Math.floor(100*((Number(capacite) + Number(controle)) * Number(valeur) + Number(securisant) + Number(encourageant) + Number(bienveillant) + Number(stimulant)) / 200)
   return (
     <div className="App">
       <h1>Compétence /10</h1>
