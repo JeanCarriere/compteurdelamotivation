@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/compteurdemotivation/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/compteurdemotivation/static/js/main.4c988585.chunk.js",
-    "main.js.map": "/compteurdemotivation/static/js/main.4c988585.chunk.js.map",
+    "main.css": "/compteurdemotivation/static/css/main.59ade11e.chunk.css",
+    "main.js": "/compteurdemotivation/static/js/main.a003455f.chunk.js",
+    "main.js.map": "/compteurdemotivation/static/js/main.a003455f.chunk.js.map",
     "runtime-main.js": "/compteurdemotivation/static/js/runtime-main.7244ff47.js",
     "runtime-main.js.map": "/compteurdemotivation/static/js/runtime-main.7244ff47.js.map",
     "static/js/2.3dfec699.chunk.js": "/compteurdemotivation/static/js/2.3dfec699.chunk.js",
@@ -10,13 +10,14 @@
     "static/js/3.6a4b25b5.chunk.js": "/compteurdemotivation/static/js/3.6a4b25b5.chunk.js",
     "static/js/3.6a4b25b5.chunk.js.map": "/compteurdemotivation/static/js/3.6a4b25b5.chunk.js.map",
     "index.html": "/compteurdemotivation/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/compteurdemotivation/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.3dfec699.chunk.js.LICENSE.txt": "/compteurdemotivation/static/js/2.3dfec699.chunk.js.LICENSE.txt"
+    "static/css/main.59ade11e.chunk.css.map": "/compteurdemotivation/static/css/main.59ade11e.chunk.css.map",
+    "static/js/2.3dfec699.chunk.js.LICENSE.txt": "/compteurdemotivation/static/js/2.3dfec699.chunk.js.LICENSE.txt",
+    "static/media/children.048f95a1.png": "/compteurdemotivation/static/media/children.048f95a1.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7244ff47.js",
     "static/js/2.3dfec699.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.4c988585.chunk.js"
+    "static/css/main.59ade11e.chunk.css",
+    "static/js/main.a003455f.chunk.js"
   ]
 }
