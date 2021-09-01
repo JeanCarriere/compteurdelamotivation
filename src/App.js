@@ -60,6 +60,7 @@ class App extends React.Component {
           </div>
         </div>
         <div className="app__right">
+          <GaugeChart className="gauge" id="gauge-chart2" textColor={'#fff'} nrOfLevels={10} percent={result/100} colors={["#FF0000","#00FF00"]} />
           <div className="app__box last">
             <h2>Ma motivation</h2>
             <h3>Compétence: {Number(capacite) + Number(controle)}</h3>
@@ -67,7 +68,6 @@ class App extends React.Component {
             <h3>Environnement: {Number(securisant) + Number(encourageant) + Number(bienveillant) + Number(stimulant)}</h3>
             <h3>Résultat: {result}%</h3>
           </div>
-          <GaugeChart className="gauge" id="gauge-chart2" textColor={'#fff'} nrOfLevels={10} percent={result/100} colors={["#FF0000","#00FF00"]} />
         </div>
       </div>
     </div>
