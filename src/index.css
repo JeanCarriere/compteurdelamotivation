@@ -48,9 +48,9 @@ code {
 .wrapper {
 	padding: 4rem 2rem 0 2rem;
 }
-.children {
+.engine {
 	display: block;
-	max-width: 30rem;
+	max-width: 43rem;
 	width: 100%;
 	margin: 0 auto 3rem auto;
 }

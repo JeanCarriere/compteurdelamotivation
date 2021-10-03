@@ -1,7 +1,7 @@
 import React from 'react';
 import GaugeChart from 'react-gauge-chart'
 import './App.css';
-import childrenImg from './children.png';
+import engine from './engine.png';
 
 class App extends React.Component {
   constructor(props) {
@@ -39,7 +39,7 @@ class App extends React.Component {
   return (
     <div className="wrapper">
       <h1>Compteur de motivation</h1>
-      <img src={childrenImg} className="children" alt="Compteur de motivation" />
+      <img src={engine} className="engine" alt="Compteur de motivation" />
       <div className="app">
         <div className="app__left">
           <div className="app__box">
