@@ -63,10 +63,10 @@ class App extends React.Component {
           <GaugeChart className="gauge" id="gauge-chart2" textColor={'#fff'} nrOfLevels={10} percent={score/100} colors={["#FF0000","#00FF00"]} />
           <div className="app__box last">
             <h2>Ma motivation</h2>
-            <h3>Compétence: {Number(capacite) + Number(controle)} / 10</h3>
-            <h3>Valeur: {valeur} / 10</h3>
-            <h3>Environnement: {Number(securisant) + Number(encourageant) + Number(bienveillant) + Number(stimulant)} / 100</h3>
-            <h3>Score: {score} %</h3>
+            <h3>Compétence : {Number(capacite) + Number(controle)} / 10</h3>
+            <h3>Valeur : {valeur} / 10</h3>
+            <h3>Environnement : {Number(securisant) + Number(encourageant) + Number(bienveillant) + Number(stimulant)} / 100</h3>
+            <h3>Score : {score} %</h3>
           </div>
         </div>
       </div>
