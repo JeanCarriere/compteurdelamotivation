@@ -53,9 +53,9 @@ class App extends React.Component {
           </div>
           <div className="app__box">
             <h2>Environnement</h2>
-            <div className="input"><span>Sécurisant</span><input type="text" value={securisant} onChange={(e) => this.setState({securisant: this.check(e.target.value, 25)})}/><span> / 25</span></div>
-            <div className="input"><span>Encourageant</span><input type="text" value={encourageant} onChange={(e) => this.setState({encourageant: this.check(e.target.value, 25)})}/><span> / 25</span></div>
             <div className="input"><span>Bienveillant</span><input type="text" value={bienveillant} onChange={(e) => this.setState({bienveillant: this.check(e.target.value, 25)})}/><span> / 25</span></div>
+            <div className="input"><span>Encourageant</span><input type="text" value={encourageant} onChange={(e) => this.setState({encourageant: this.check(e.target.value, 25)})}/><span> / 25</span></div>
+            <div className="input"><span>Sécurisant</span><input type="text" value={securisant} onChange={(e) => this.setState({securisant: this.check(e.target.value, 25)})}/><span> / 25</span></div>
             <div className="input"><span>Stimulant</span><input type="text"  value={stimulant} onChange={(e) => this.setState({stimulant: this.check(e.target.value, 25)})}/><span> / 25</span></div>
           </div>
         </div>
