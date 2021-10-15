@@ -66,7 +66,7 @@ class App extends React.Component {
             <h3>Compétence: {Number(capacite) + Number(controle)} / 10</h3>
             <h3>Valeur: {valeur} / 10</h3>
             <h3>Environnement: {Number(securisant) + Number(encourageant) + Number(bienveillant) + Number(stimulant)} / 100</h3>
-            <h3>Résultat: {score} %</h3>
+            <h3>Score: {score} %</h3>
           </div>
         </div>
       </div>
