@@ -35,11 +35,11 @@ class App extends React.Component {
     encourageant,
     bienveillant,
     stimulant} = this.state;
-    const result = Math.floor(100*((Number(capacite) + Number(controle)) * Number(valeur) + Number(securisant) + Number(encourageant) + Number(bienveillant) + Number(stimulant)) / 200)
+    const score = Math.floor(100*((Number(capacite) + Number(controle)) * Number(valeur) + Number(securisant) + Number(encourageant) + Number(bienveillant) + Number(stimulant)) / 200)
   return (
     <div className="wrapper">
-      <h1>Compteur de motivation</h1>
-      <img src={engine} className="engine" alt="Compteur de motivation" />
+      <h1>Compteur de la motivation</h1>
+      <img src={engine} className="engine" alt="Compteur de la motivation" />
       <div className="app">
         <div className="app__left">
           <div className="app__box">
@@ -60,13 +60,13 @@ class App extends React.Component {
           </div>
         </div>
         <div className="app__right">
-          <GaugeChart className="gauge" id="gauge-chart2" textColor={'#fff'} nrOfLevels={10} percent={result/100} colors={["#FF0000","#00FF00"]} />
+          <GaugeChart className="gauge" id="gauge-chart2" textColor={'#fff'} nrOfLevels={10} percent={score/100} colors={["#FF0000","#00FF00"]} />
           <div className="app__box last">
             <h2>Ma motivation</h2>
             <h3>Compétence: {Number(capacite) + Number(controle)} / 10</h3>
             <h3>Valeur: {valeur} / 10</h3>
             <h3>Environnement: {Number(securisant) + Number(encourageant) + Number(bienveillant) + Number(stimulant)} / 100</h3>
-            <h3>Résultat: {result} %</h3>
+            <h3>Résultat: {score} %</h3>
           </div>
         </div>
       </div>
