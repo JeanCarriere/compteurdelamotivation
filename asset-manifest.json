@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/compteurdemotivation/static/css/main.90aab97a.chunk.css",
-    "main.js": "/compteurdemotivation/static/js/main.c8c080b8.chunk.js",
-    "main.js.map": "/compteurdemotivation/static/js/main.c8c080b8.chunk.js.map",
+    "main.js": "/compteurdemotivation/static/js/main.f5a7f436.chunk.js",
+    "main.js.map": "/compteurdemotivation/static/js/main.f5a7f436.chunk.js.map",
     "runtime-main.js": "/compteurdemotivation/static/js/runtime-main.7244ff47.js",
     "runtime-main.js.map": "/compteurdemotivation/static/js/runtime-main.7244ff47.js.map",
     "static/js/2.3dfec699.chunk.js": "/compteurdemotivation/static/js/2.3dfec699.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.7244ff47.js",
     "static/js/2.3dfec699.chunk.js",
     "static/css/main.90aab97a.chunk.css",
-    "static/js/main.c8c080b8.chunk.js"
+    "static/js/main.f5a7f436.chunk.js"
   ]
 }
