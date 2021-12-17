@@ -44,19 +44,19 @@ class App extends React.Component {
         <div className="app__left">
           <div className="app__box">
             <h2>Compétence</h2>
-            <div className="input"><span>Capacité</span><input type="text" value={capacite} onChange={(e) => this.setState({capacite: this.check(e.target.value, 5)})}/><span> / 5</span></div>
-            <div className="input"><span>Contrôle</span><input type="text" value={controle} onChange={(e) => this.setState({controle: this.check(e.target.value, 5)})}/><span> / 5</span></div>
+            <div className="input"><span>Capacité</span><input type="number" value={capacite} onChange={(e) => this.setState({capacite: this.check(e.target.value, 5)})}/><span> / 5</span></div>
+            <div className="input"><span>Contrôle</span><input type="number" value={controle} onChange={(e) => this.setState({controle: this.check(e.target.value, 5)})}/><span> / 5</span></div>
           </div>
           <div className="app__box">
             <h2>Valeur</h2>
-            <div className="input"><span>Valeur</span><input type="text" value={valeur} onChange={(e) => this.setState({valeur: this.check(e.target.value, 10)})}/><span> / 10</span></div>
+            <div className="input"><span>Valeur</span><input type="number" value={valeur} onChange={(e) => this.setState({valeur: this.check(e.target.value, 10)})}/><span> / 10</span></div>
           </div>
           <div className="app__box">
             <h2>Environnement</h2>
-            <div className="input"><span>Bienveillant</span><input type="text" value={bienveillant} onChange={(e) => this.setState({bienveillant: this.check(e.target.value, 25)})}/><span> / 25</span></div>
-            <div className="input"><span>Encourageant</span><input type="text" value={encourageant} onChange={(e) => this.setState({encourageant: this.check(e.target.value, 25)})}/><span> / 25</span></div>
-            <div className="input"><span>Sécurisant</span><input type="text" value={securisant} onChange={(e) => this.setState({securisant: this.check(e.target.value, 25)})}/><span> / 25</span></div>
-            <div className="input"><span>Stimulant</span><input type="text" value={stimulant} onChange={(e) => this.setState({stimulant: this.check(e.target.value, 25)})}/><span> / 25</span></div>
+            <div className="input"><span>Bienveillant</span><input type="number" value={bienveillant} onChange={(e) => this.setState({bienveillant: this.check(e.target.value, 25)})}/><span> / 25</span></div>
+            <div className="input"><span>Encourageant</span><input type="number" value={encourageant} onChange={(e) => this.setState({encourageant: this.check(e.target.value, 25)})}/><span> / 25</span></div>
+            <div className="input"><span>Sécurisant</span><input type="number" value={securisant} onChange={(e) => this.setState({securisant: this.check(e.target.value, 25)})}/><span> / 25</span></div>
+            <div className="input"><span>Stimulant</span><input type="number" value={stimulant} onChange={(e) => this.setState({stimulant: this.check(e.target.value, 25)})}/><span> / 25</span></div>
           </div>
         </div>
         <div className="app__right">
