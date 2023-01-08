@@ -44,13 +44,13 @@ class App extends React.Component {
       <div className="app">
         <div className="app__left">
           <div className="app__box">
-            <div className="input"><span>Compétence</span><input type="number" value={capacite} onChange={(e) => this.setState({capacite: this.check(e.target.value, 10)})}/><span>&nbsp;/&nbsp;10</span></div>
+            <div className="input"><h2 style={{margin: 0}}>Compétence</h2><input type="number" value={capacite} onChange={(e) => this.setState({capacite: this.check(e.target.value, 10)})}/><span>&nbsp;/&nbsp;10</span></div>
           </div>
           <div className="app__box">
-            <div className="input"><span>Valeur</span><input style={{width:'60px'}} type="number" value={valeur} onChange={(e) => this.setState({valeur: this.check(e.target.value, 10)})}/><span> / 10</span></div>
+            <div className="input"><h2 style={{margin: 0}}>Valeur</h2><input style={{width:'60px'}} type="number" value={valeur} onChange={(e) => this.setState({valeur: this.check(e.target.value, 10)})}/><span> / 10</span></div>
           </div>
           <div className="app__box">
-            <div className="input"><span>Contrôle</span><input style={{width:'60px'}} type="number" value={controle} onChange={(e) => this.setState({controle: this.check(e.target.value, 40)})}/><span> / 40</span></div>
+            <div className="input"><h2 style={{margin: 0}}>Contrôle</h2><input style={{width:'60px'}} type="number" value={controle} onChange={(e) => this.setState({controle: this.check(e.target.value, 40)})}/><span> / 40</span></div>
           </div>
           <div className="app__box">
             <h2>Environnement</h2>
