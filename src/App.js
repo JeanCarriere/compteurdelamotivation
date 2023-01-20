@@ -2,6 +2,7 @@ import React from 'react';
 import GaugeChart from 'react-gauge-chart'
 import './App.css';
 import engine from './engine.png';
+import logo from './logo.png';
 
 class App extends React.Component {
   constructor(props) {
@@ -39,6 +40,7 @@ class App extends React.Component {
     const date = new Date();
     return (
     <div className="wrapper">
+      <img src={logo} className="logo" alt="Logo Réagir" />
       <h1>Compteur de la motivation</h1>
       <img src={engine} className="engine" alt="Compteur de la motivation" />
       <div className="app">
