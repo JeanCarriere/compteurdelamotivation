@@ -97,22 +97,39 @@ code {
 	background-color: #fff;
 	border-radius: 1rem;
 }
+.score {
+	margin-top: 3rem;
+	color: #8484a5;
+	font-size: 2.2rem;
+}
 .app__box.last {
 	margin-bottom: 0;
 	border-radius: 0 0 1rem 1rem;
 }
+.app__box.special {
+	border-radius: 0 0 1rem 1rem;
+}
+
 .input {
 	font-weight: bold;
 	display: flex;
 	align-items: center;
-	margin-bottom: 1rem;
 	font-size: 2rem;
+}
+.app__box.big .input {
+	margin-bottom: 1rem;
+}
+.app__box.big h2 {
+	margin-bottom: 3rem;
 }
 .input > :not(:last-child) {
 	margin-right: 2rem;
 }
 .input > :first-child {
 	width: 100%;
+}
+.input input{
+	margin-bottom: 0;
 }
 input {
 	height: 3.8rem;
@@ -124,6 +141,7 @@ input {
 	font-size: 2rem;
 	font-weight: 600;
 	font-family: 'Lato', sans-serif;
+	margin: 0;
 }
 .gauge {
 	padding: 2rem 0;
@@ -201,13 +219,18 @@ input {
 }
 
 @media print{
-	@page { margin: 3rem; z-index: -2;}
+	@page { margin: 3rem;}
 	body {
 		margin: 0;
 		padding: 0;
+		zoom: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
 	.wrapper {
 		padding: 0 !important;
+		page-break-inside: avoid;
 	}
 	svg text {
 		fill: #000 !important;

@@ -1,8 +1,8 @@
 import React from 'react';
 import GaugeChart from 'react-gauge-chart'
 import './App.css';
-import engine from './engine.png';
-import logo from './logo.png';
+import engine from './engine.gif';
+import logo from './reagir.png';
 
 class App extends React.Component {
   constructor(props) {
@@ -54,7 +54,7 @@ class App extends React.Component {
           <div className="app__box">
             <div className="input"><h2 style={{margin: 0}}>Contrôle</h2><input style={{width:'60px'}} type="number" value={controle} onChange={(e) => this.setState({controle: this.check(e.target.value, 40)})}/><span> / 40</span></div>
           </div>
-          <div className="app__box">
+          <div className="app__box big">
             <h2>Environnement</h2>
             <div className="input"><span>Bienveillant</span><input type="number" value={bienveillant} onChange={(e) => this.setState({bienveillant: this.check(e.target.value, 15)})}/><span>&nbsp;/&nbsp;15</span></div>
             <div className="input"><span>Encourageant</span><input type="number" value={encourageant} onChange={(e) => this.setState({encourageant: this.check(e.target.value, 15)})}/><span>&nbsp;/&nbsp;15</span></div>
@@ -64,13 +64,13 @@ class App extends React.Component {
         </div>
         <div className="app__right">
           <GaugeChart className="gauge" id="gauge-chart2" textColor={'#FFF'} nrOfLevels={10} percent={score / 100} colors={['#FF0000', '#00FF00']} />
-          <div className="app__box">
+          <div className="app__box special">
             <h2>Ma motivation</h2>
             <h3>Compétence : {Number(capacite)} / 10</h3>
             <h3>Valeur : {Number(valeur)} / 10</h3>
             <h3>Contrôle: {Number(controle)} / 40</h3>
             <h3>Environnement : {Number(bienveillant) + Number(encourageant) + Number(securisant) + Number(stimulant)} /60</h3>
-            <h3>Score : {score} %</h3>
+            <h3 className="score">Score : {score} %</h3>
           </div>
           <div className="app__box">
             <h2>Date</h2>
