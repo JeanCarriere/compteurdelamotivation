@@ -2,7 +2,7 @@
   "name": "compteurdelamotivation",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://jeancarriere.github.io/compteurdelamotivation/97576927c1e20c2876d1a6f935a15053c824fe81/",
+  "homepage": "http://jeancarriere.github.io/compteurdelamotivation/8fd1a13281079c6d0903e5d4927e41431856186f/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -19,7 +19,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -d build --dest 97576927c1e20c2876d1a6f935a15053c824fe81"
+    "deploy": "gh-pages -d build --dest 8fd1a13281079c6d0903e5d4927e41431856186f"
   },
   "eslintConfig": {
     "extends": [
